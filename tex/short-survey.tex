@@ -1,0 +1,55 @@
+\documentclass[11pt]{article}
+\date{April 26, 2018}
+\usepackage{pgf-pie}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+\usepackage{pgfplotstable}
+\usetikzlibrary{patterns}
+\usepackage[section]{placeins}
+\usetikzlibrary{arrows,shadows}
+\usepackage[utf8]{inputenc}
+\title{My title}
+\author{John Doe\\\\Associate Survey Branch Manager}
+
+\begin{document}
+\maketitle{}
+\section*{Introduction}
+This report has been automatically generated.
+
+
+\clearpage{}
+\section{Lorem?}
+
+\label{sec:7}
+
+
+\begin{figure}[h!]
+    \begin{tikzpicture}
+        \pie[radius=4,sum=auto,text=legend]{
+            2/2,
+            1/4
+        }
+    \end{tikzpicture}
+    \caption{\label{figure:q7-1}Repartition of answers for the question 'Lorem?'.}
+\end{figure}
+
+
+
+\clearpage{}
+\section{Ipsum?}
+
+\label{sec:8}
+
+
+\begin{figure}[h!]
+    \begin{tikzpicture}
+        \pie[radius=4,sum=auto,text=legend]{
+            1/5
+        }
+    \end{tikzpicture}
+    \caption{\label{figure:q8-1}Repartition of answers for the question 'Ipsum?'.}
+\end{figure}
+
+
+Short survey footer.
+\end{document}
